@@ -2,7 +2,10 @@
 title: "Reproducible Research_Course Project 1"
 author: "Amir Ansaripour"
 date: "January 10, 2016"
-output: html_document
+output: 
+  html_document: 
+    fig_caption: yes
+    toc: yes
 ---
 
 This is a report regarding a personal activity monitoring device. This device collects data at 5 minute intervals through out the day. The data consists of two months of data from an anonymous individual collected during the months of October and November, 2012 and include the number of steps taken in 5 minute intervals each day.
@@ -98,7 +101,7 @@ imp_steps_median
 
 Are there differences in activity patterns between weekdays and weekends?
 
-In order to quickly determine if there are activity differences between weekends and weekdays we simply plot two graphs, one with weekday data and one with weekend data. By plotting one above the other our x-axes are identical enabling us to "eyeball" (a time-honored scientific method) the graphs to note any differences.
+In order to quickly determine if there are activity differences between weekends and weekdays we simply plot two graphs, one with weekday data and one with weekend data. By plotting one above the other our x-axes are identical enabling us to “eyeball” (a time-honored scientific method) the graphs to note any differences.
 
 8- I, firstly, tried to convert date to week days variable. then, new data set including the "weekdays" aggregated on steps again.
 
